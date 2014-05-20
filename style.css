@@ -46,6 +46,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 }
 
+.left{
+	float:left;
+}
+
 body{
 	background:url(img/bg_pagina.png) repeat-y;
 	background-size:100% 100%;
@@ -122,4 +126,56 @@ body{
 	height:457px;
 	background:url(img/bg_rodape.png);
 	margin:0 auto;
+}
+
+.conteudo_rodape{
+	position:relative;
+}
+
+.catalogo{
+	width:265px;
+	height:80px;
+	float:right;
+	margin:92px 90px 0 0;
+}
+
+.catalogo span{
+color:#941d14;
+font-family:'antonregular';
+text-transform:uppercase;
+font-size:22px;
+}
+
+.catalogo p{
+font-family: 'open_sansregular';
+font-size:14px;
+}
+.contatos{
+	width:100%;
+	display:table;
+}
+
+
+.local,
+.tel,
+.email,
+.facebook{
+	margin-top:55px;
+}
+.local{
+width:165px;
+margin-left:75px;
+}
+.tel{
+width:120px;
+margin-left:55px;
+}
+.email{
+width:200px;
+margin-left:90px;
+}
+.facebook{
+width:70px;
+margin-left:120px;
+margin-top:65px;
 }
