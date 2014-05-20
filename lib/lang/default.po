@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Root WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-07 13:23-0300\n"
+"PO-Revision-Date: 2014-01-07 13:24-0300\n"
+"Last-Translator: Mazetto <teste@teste.com.br>\n"
+"Language-Team:  <root@rootwp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n;__r;_er\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:89
+msgid "Add new"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:90
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:91
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:92
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:93
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:94
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:95
+msgid "Nothing found"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:96
+msgid "Nothing found in trash"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/cpt.php:97
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/form.php:211
+msgid "No options to the select field."
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/form.php:319
+msgid "There is already a field with the same name!"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/form.php:331
+msgid "You need to define a name to the field!"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/metabox.php:32
+msgid "Additional information"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/option.php:75
+msgid "Page options"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/option.php:164
+msgid "Sending unauthorized data..."
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/option.php:167
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/option.php:182
+msgid "Successfully updated options!"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/option.php:326
+msgid "Save changes"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/term.php:113
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/term.php:114
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/term.php:116
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/term.php:117
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/term.php:118
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:55
+msgid "Image not available"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:260
+msgid "First"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:261
+msgid "Last"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:264
+#, php-format
+msgid "Page %d of %d:"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:335
+msgid "You are here:"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:336
+msgid "Home Page"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:338
+#, php-format
+msgid "Part %d"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:339
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:340
+msgid "Search results"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:341
+msgid "Invalid page"
+msgstr ""
+
+#: C:\wamp\www\rootwp\wp-content\themes\docpress/lib/theme.php:342
+msgid "Archive"
+msgstr ""
+
