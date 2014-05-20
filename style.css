@@ -11,6 +11,41 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **/
 
+@font-face {
+    font-family: 'antonregular';
+    src: url('fontes/anton-webfont.eot');
+    src: url('fontes/anton-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/anton-webfont.woff') format('woff'),
+         url('fontes/anton-webfont.ttf') format('truetype'),
+         url('fontes/anton-webfont.svg#antonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fontes/opensans-bold-webfont.eot');
+    src: url('fontes/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/opensans-bold-webfont.woff') format('woff'),
+         url('fontes/opensans-bold-webfont.ttf') format('truetype'),
+         url('fontes/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fontes/opensans-regular-webfont.eot');
+    src: url('fontes/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/opensans-regular-webfont.woff') format('woff'),
+         url('fontes/opensans-regular-webfont.ttf') format('truetype'),
+         url('fontes/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
 	background:url(img/bg_pagina.png) repeat-y;
 	background-size:100% 100%;
@@ -21,6 +56,39 @@ body{
 	background:url(img/bg_topo.png);
 	width:980px;
 	margin:0 auto;
+}
+
+#logo{
+	padding:25px 0 0 40px;
+	width:226px;
+	float:left;
+}
+
+#menu{
+	float:left;
+	width:600px;
+	margin:35px 0 0 90px;
+}
+
+#menu ul{}
+
+#menul li{
+	display:inline;
+}
+
+#menu li a{
+	display:block;
+	float:left;
+	height:35px;
+	padding:0 18px;
+	text-decoration:none;
+	font-family:'open_sansbold';
+	font-size:11pt;
+	color:#941d14;
+	border-radius:20px;
+	text-transform:uppercase;
+	
+
 }
 
 #conteudo{

@@ -12,10 +12,29 @@
 <body <?php body_class(); ?>>
 	<!--- - - - - - - Cabecalho - - - - - - - - - -->
 	<div id="topo">
-		<div id="logo"></div>
+		<div id="logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" /></div>
 		<div id="menu">
 			<nav>
+			
+			<?php 
+  				wp_nav_menu(
+ 				array(
+  				'menu'              =>    'menu_topo',
+  				'theme_location'    =>    'menu_topo',    
+  				'menu_id'           =>    'menu',    
+  				'echo'              =>    true,    
+  				'depht'             =>    0, 
+  				'walker'            =>    '', 
+  					));
+  			?>
 
+				<!--<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Empresa</a></li>
+					<li><a href="#">Representantes</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>-->
 			</nav>
 		</div>
 	</div>
