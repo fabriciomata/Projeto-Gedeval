@@ -13,6 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body{
 	background:url(img/bg_pagina.png) repeat-y;
+	background-size:100% 100%;
 }
 
 #topo{
