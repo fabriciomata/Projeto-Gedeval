@@ -32,7 +32,7 @@ get_header(); ?>
 					<div class="titulo-produto"><?php the_title(''); ?></div>
 					<div class="descricao-produto"><p>Código : <?php the_field('codigo_do_produto'); ?></p>
 												   <p><?php the_field('descricao_produto'); ?></p></div>
-					<div class="manual-produto"><span>Manual de Montagem</span><img src="<?php echo get_template_directory_uri(); ?>/img/seta_manual.png" /></div>
+					<div class="manual-produto"><a target="_blank" href="<?php the_field('manual_do_produto'); ?>">Manual de Montagem</a><img src="<?php echo get_template_directory_uri(); ?>/img/seta_manual.png" /></div>
 				</div>
 
 								<?php
