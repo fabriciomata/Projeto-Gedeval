@@ -7,6 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/reset.css" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+   <!-- inclusão do javascript-->
+   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.6.2.min.js"></script>
+   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jcarousellite_1.0.1.min.js"></script>
+   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/carrossel.js"></script>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -52,6 +56,7 @@ function EmptyField(id)
 	}
 }
 </script>
+
 
 	<!--- - - - - - - Conteudo - - - - - - - - - -->
 	<div id="conteudo">

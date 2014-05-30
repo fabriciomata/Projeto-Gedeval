@@ -6,31 +6,7 @@ add_action( 'root_setup', 'custom_setup' );
 
 function custom_setup()
 {
-	CPT::add(
-    'produtos',
-    array(
-        'singular'  => 'Produto',
-        'plural'    => 'Produtos'
-    )
-);
 
-	Metabox::add( 'itens-produto', 'produtos' );
-	Metabox::add_fields(
-    'itens-produto',
-    array(
-        array(
-            'name'  => 'nome_produto',
-            'label' => 'Nome do Produto',
-            'meta'  => 'text'
-        ),
-        array(
-            'name'  => 'descricao_produto',
-            'label' => 'Descrição',
-            'type'  => 'textarea',
-            'meta'  => 'custom_key'
-        )
-    )
-);
 
 }
 

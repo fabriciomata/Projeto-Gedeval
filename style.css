@@ -83,7 +83,7 @@ body{
 #menu{
 	float:left;
 	width:600px;
-	margin:15px 0 0 50px;
+	margin:0 0 0 50px;
 }
 
 #menu ul{}
@@ -96,15 +96,17 @@ body{
 	display:block;
 	float:left;
 	height:35px;
-	padding:0 18px;
+	padding:25px 18px 0  18px;
 	text-decoration:none;
 	font-family:'open_sansbold';
+	border-top:6px solid #fff;
 	font-size:11pt;
 	color:#941d14;
-	border-radius:20px;
 	text-transform:uppercase;
-	
+}
 
+.current-menu-item a{
+	border-top:6px solid #941d14 !important;
 }
 
 #conteudo{
@@ -317,6 +319,12 @@ margin-top:10px;
 	line-height:35px;
 }
 
+.menu-categorias li a{
+	font-family: 'open_sanssemibold';
+	color:#000;
+	text-decoration:none;
+}
+
 .produto{
 	width:210px;
 	height:260px;
@@ -340,13 +348,16 @@ margin-top:10px;
 	background:#d6d1d1;
 	border-radius:10px;
 	line-height:30px;
-	text-transform:uppercase;
-    font-family: 'open_sansregular';
-    font-size:13px;
+
 }
 
-.manual-produto span{
-    padding:0 15px;	
+.manual-produto a{
+    padding:0 15px;
+    text-transform:uppercase;
+    font-family: 'open_sansregular';
+    font-size:13px;
+    color:#000;
+    text-decoration:none;
 }
 
 /* ------------------------------ Representantes ------------------------------ */
@@ -526,4 +537,51 @@ margin-top:10px;
 
 .exibir-mapa:hover{
 		background-color:#bf261b;
+}
+
+.current-cat{
+	background:url(img/seta_list.png) no-repeat right center;
+}
+
+/* ------------- Carrosel ---------------- */
+
+#carrossel{
+   width:810px !important;
+   height:265px;
+   overflow:hidden;
+   margin-top:30px;
+}
+
+#carrossel ul{
+   list-style:none;
+   float:left;
+}
+#carrossel ul li{
+   float:left;
+   display:inline;
+   margin-left:4px;
+   height:210px;
+   width:210px;
+   padding-right:90px;
+}
+
+#carrossel ul li span{
+   font-family: 'open_sansbold';
+   color:#b61409;
+}
+
+#carrossel ul li p{
+    font-family: 'open_sansregular';
+    font-size:14px;
+}
+
+
+.prev{
+	float: left;
+	margin:100px 30px 0 30px;
+}
+
+.next{	
+	float: left;
+	margin:100px 30px 0 30px;
 }
